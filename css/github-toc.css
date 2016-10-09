@@ -11,7 +11,7 @@
 }
 
 #toc li a{
-  padding: 5px 10px;
+  padding: 3px 0px;
 }
 
 #toc a {
@@ -28,29 +28,16 @@
 }
 
 #toc .toc-h2 {
-  padding-left: 0px;
-}
-
-#toc .toc-h3 {
   padding-left: 10px;
   list-style: none;
 }
-/*
-#toc .toc-active {
-    background: #F7F7F7;
-    box-shadow: rgb(222, 233, 232) -5px 0px 10px -5px inset;
-}*/
 
-article.markdown-body h2, #wiki-body .markdown-body h2 {
-  padding-bottom: 0.3em;
-  font-size: 1.5em;
-  line-height: 1.225;
-  border-bottom: 2px solid #eee;
+#toc .toc-h3 {
+  padding-left: 25px;
+  list-style: none;
 }
 
-article.markdown-body h3, #wiki-body .markdown-body h3 {
-  padding-bottom: 0.3em;
-  font-size: 1.3em;
-  line-height: 1.225;
-  border-bottom: 1px solid #eee;
+#toc .toc-h4 {
+  padding-left: 40px;
+  list-style: none;
 }
