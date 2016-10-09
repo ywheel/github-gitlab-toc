@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "GitLab Toc",
+  "name": "GitHub/GitLab Toc",
   "version": "1.0",
   "author": "Charlie Jade <summer.alex07@gmail.com> (http://summerblue.me), Modified for GitLab By ywheel <ywheel@ywheel.com> (http://www.ywheel.com)",
-  "description": "Generate TOC(Table of Content) for GitLab READEME and GitLab Wiki",
+  "description": "Generate TOC(Table of Content) for GitHub/GitLab READEME and Wiki",
   "icons": {
     "16": "img/github-toc-16.png",
     "48": "img/github-toc-48.png",
