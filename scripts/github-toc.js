@@ -4,8 +4,12 @@ $(document).ready(() => {
       var host = window.location.host;
       if (host.startsWith("gitlab")) {
         // gitlab
-        $('.wiki').prepend("<div id='toc'><div>");
-        $('.wiki').addClass('toc-mian-body')
+        var url = window.location.href;
+        if (url.indexOf("issue") === -1) {
+          // not issue
+          $('.wiki').prepend("<div id='toc'><div>");
+          $('.wiki').addClass('toc-mian-body')
+        }
       } else {
         // default: github
         $('#wiki-body .markdown-body').prepend("<div id='toc'><div>");
