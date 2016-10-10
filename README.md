@@ -11,12 +11,9 @@ This Project is cloned from [github-toc](https://github.com/summerblue/github-to
 Modify 'matches' in `manifest.json`, add your private gitlab url. For example, if your private gitlab domain is http://gitlab.ywheel.com/ , then the 'matches' in `manifest.json` looks like:
 
 ```json
-  ...
-  "content_scripts": [{
     "matches": [
       "https://gitlab.com/*",
       "https://github.com/*",
       "http://gitlab.ywheel.com/*"
-    ],
-  ...
+    ]
 ```
