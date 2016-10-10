@@ -5,7 +5,7 @@ $(document).ready(() => {
       if (host.startsWith("gitlab")) {
         // gitlab
         var url = window.location.href;
-        if (url.indexOf("issue") === -1) {
+        if (url.indexOf("issue") === -1 && url.indexOf("milestone") === -1) {
           // not issue
           $('.wiki').prepend("<div id='toc'><div>");
           $('.wiki').addClass('toc-mian-body')
